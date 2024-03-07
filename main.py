@@ -9,7 +9,7 @@ data = pd.read_csv('data.csv')
 #code block 3, set up the plot 
 plt.figure(figsize=(8,5))
 plt.gca().set_aspect('equal', adjustable='box')
-#plt.axis('off')
+plt.axis('off')
 
 #code block 4, create the bar chart
 #each row represent each year that represent each bar
